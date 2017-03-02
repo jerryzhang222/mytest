@@ -6,4 +6,3 @@ jobs:
     main:
         steps:
             - save: echo hello > $SD_ARTIFACTS_DIR/hello.txt
-            - fail: exit 1
