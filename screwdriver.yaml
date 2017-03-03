@@ -1,13 +1,7 @@
 shared:
     image: node:6
     settings:
-        email:
-            addresses:
-                - thejerryzhang@gmail.com
-                - jerryzhang222@yahoo.com
-            statuses:
-                - SUCCESS
-                - FAILURE
+        email: 123
 jobs:
     main:
         steps:
