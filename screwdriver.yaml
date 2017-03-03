@@ -1,9 +1,14 @@
 shared:
     image: node:6
     settings:
-        email: thejerryzhang@gmail.com
+        email:
+            addresses:
+                - thejerryzhang@gmail.com
+                - jerryzhang222@yahoo.com
+            statuses:
+                - SUCCESS
+                - FAILURE
 jobs:
     main:
         steps:
             - save: echo hello > $SD_ARTIFACTS_DIR/hello.txt
-            - fail: exit 1
