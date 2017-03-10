@@ -1,7 +1,7 @@
 shared:
     image: node:6
     settings:
-        email: 123
+        email: jerryzhang@yahoo-inc.com
 jobs:
     main:
         steps:
